@@ -18,7 +18,6 @@ int main() {
         BeginDrawing();
             BeginMode2D(cam);
                 ClearBackground(BLACK);
-                DrawFPS(10,10);
             EndMode2D();
         EndDrawing();
     }

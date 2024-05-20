@@ -1,4 +1,5 @@
 /home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/TicTacToeOnline.dir
+/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/copy_assets.dir
 /home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/package.dir
 /home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/package_source.dir
 /home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/edit_cache.dir
