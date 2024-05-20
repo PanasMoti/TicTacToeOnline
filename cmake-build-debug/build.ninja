@@ -53,7 +53,7 @@ build CMakeFiles/TicTacToeOnline.dir/main.cpp.o: CXX_COMPILER__TicTacToeOnline_u
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles/TicTacToeOnline.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  INCLUDES = -I/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/src -I/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  INCLUDES = -I/home/panasmoti/DEV/Projects/TicTacToeOnline/sockets -I/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/src -I/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = CMakeFiles/TicTacToeOnline.dir
   OBJECT_FILE_DIR = CMakeFiles/TicTacToeOnline.dir
 

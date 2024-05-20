@@ -1,5 +1,6 @@
 #include <iostream>
 #include <raylib.h>
+#include "TcpSocket.hpp"
 
 #define WIDTH 800
 #define HEIGHT 640
