@@ -1,0 +1,3 @@
+/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/TicTacToeOnline.dir
+/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/rebuild_cache.dir
