@@ -507,3 +507,224 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/raylib-src/cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "cmake-build-debug/_deps/raylib-src/cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "cmake-build-debug/_deps/raylib-src/CMakeLists.txt:29 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ctmQHO"
+      binary: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ctmQHO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: '/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ctmQHO'
+        
+        Run Build Command(s): /snap/clion/275/bin/ninja/linux/x64/ninja -v cmTC_5214a
+        [1/2] /usr/bin/cc -DCOMPILER_HAS_THOSE_TOGGLES  -fdiagnostics-color=always   -Werror=pointer-arith -o CMakeFiles/cmTC_5214a.dir/src.c.o -c /home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ctmQHO/src.c
+        [2/2] : && /usr/bin/cc  -rdynamic CMakeFiles/cmTC_5214a.dir/src.c.o -o cmTC_5214a   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "cmake-build-debug/_deps/raylib-src/src/external/glfw/CMakeLists.txt:64 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W7jibn"
+      binary: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W7jibn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_MODULE_PATH: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/cmake;/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W7jibn'
+        
+        Run Build Command(s): /snap/clion/275/bin/ninja/linux/x64/ninja -v cmTC_127fd
+        [1/2] /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -fdiagnostics-color=always -o CMakeFiles/cmTC_127fd.dir/src.c.o -c /home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W7jibn/src.c
+        [2/2] : && /usr/bin/cc -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -rdynamic CMakeFiles/cmTC_127fd.dir/src.c.o -o cmTC_127fd   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindX11.cmake:682 (check_library_exists)"
+      - "cmake-build-debug/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt:187 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uSnftg"
+      binary: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uSnftg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/cmake;/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uSnftg'
+        
+        Run Build Command(s): /snap/clion/275/bin/ninja/linux/x64/ninja -v cmTC_749c9
+        [1/2] /usr/bin/cc   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=XOpenDisplay -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_749c9.dir/CheckFunctionExists.c.o -c /home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uSnftg/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=XOpenDisplay  CMakeFiles/cmTC_749c9.dir/CheckFunctionExists.c.o -o cmTC_749c9  /usr/lib/x86_64-linux-gnu/libX11.so  /usr/lib/x86_64-linux-gnu/libXext.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindX11.cmake:697 (check_function_exists)"
+      - "cmake-build-debug/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt:187 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wqK0nA"
+      binary: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wqK0nA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/cmake;/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wqK0nA'
+        
+        Run Build Command(s): /snap/clion/275/bin/ninja/linux/x64/ninja -v cmTC_1fdf5
+        [1/2] /usr/bin/cc   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=gethostbyname -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_1fdf5.dir/CheckFunctionExists.c.o -c /home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wqK0nA/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=gethostbyname  CMakeFiles/cmTC_1fdf5.dir/CheckFunctionExists.c.o -o cmTC_1fdf5   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindX11.cmake:711 (check_function_exists)"
+      - "cmake-build-debug/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt:187 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LPLGUU"
+      binary: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LPLGUU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/cmake;/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LPLGUU'
+        
+        Run Build Command(s): /snap/clion/275/bin/ninja/linux/x64/ninja -v cmTC_8b01d
+        [1/2] /usr/bin/cc   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=connect -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_8b01d.dir/CheckFunctionExists.c.o -c /home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LPLGUU/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=connect  CMakeFiles/cmTC_8b01d.dir/CheckFunctionExists.c.o -o cmTC_8b01d   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindX11.cmake:720 (check_function_exists)"
+      - "cmake-build-debug/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt:187 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gTJdqg"
+      binary: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gTJdqg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/cmake;/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gTJdqg'
+        
+        Run Build Command(s): /snap/clion/275/bin/ninja/linux/x64/ninja -v cmTC_a831c
+        [1/2] /usr/bin/cc   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=remove -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_a831c.dir/CheckFunctionExists.c.o -c /home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gTJdqg/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=remove  CMakeFiles/cmTC_a831c.dir/CheckFunctionExists.c.o -o cmTC_a831c   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindX11.cmake:729 (check_function_exists)"
+      - "cmake-build-debug/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt:187 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qnPsUE"
+      binary: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qnPsUE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/cmake;/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qnPsUE'
+        
+        Run Build Command(s): /snap/clion/275/bin/ninja/linux/x64/ninja -v cmTC_70f9c
+        [1/2] /usr/bin/cc   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=shmat -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_70f9c.dir/CheckFunctionExists.c.o -c /home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qnPsUE/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=shmat  CMakeFiles/cmTC_70f9c.dir/CheckFunctionExists.c.o -o cmTC_70f9c   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindX11.cmake:739 (check_library_exists)"
+      - "cmake-build-debug/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt:187 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yofkBz"
+      binary: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yofkBz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/cmake;/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yofkBz'
+        
+        Run Build Command(s): /snap/clion/275/bin/ninja/linux/x64/ninja -v cmTC_89978
+        [1/2] /usr/bin/cc   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -std=gnu99 -fdiagnostics-color=always -o CMakeFiles/cmTC_89978.dir/CheckFunctionExists.c.o -c /home/panasmoti/DEV/Projects/TicTacToeOnline/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yofkBz/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber  CMakeFiles/cmTC_89978.dir/CheckFunctionExists.c.o -o cmTC_89978  -lICE && :
+        
+      exitCode: 0
+...

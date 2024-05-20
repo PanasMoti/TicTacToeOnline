@@ -1,6 +1,27 @@
 #include <iostream>
+#include <raylib.h>
+
+#define WIDTH 800
+#define HEIGHT 640
+#define TITLE "Tic Tac Toe Online"
+
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    InitWindow(WIDTH, HEIGHT, TITLE);
+    SetTargetFPS(60);
+    Camera2D cam = {0};
+    cam.offset = {WIDTH/2.0f, HEIGHT/2.0f};
+    cam.zoom = 1.0f;
+
+    while(!WindowShouldClose()) {
+        BeginDrawing();
+            BeginMode2D(cam);
+                ClearBackground(BLACK);
+                DrawFPS(10,10);
+            EndMode2D();
+        EndDrawing();
+    }
+
+    CloseWindow();
     return 0;
 }
